@@ -1,0 +1,225 @@
+main {
+  padding: 55px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.main-section {
+  padding: 3%;
+}
+
+.aside-section {
+  padding: 3%;
+}
+
+.diskusi-5-teratas-title {
+  text-align: left;
+}
+
+.diskusi-5-teratas {
+  margin-top: 1.5rem;
+  text-align: justify;
+}
+
+.diskusi-5-teratas li {
+  margin: 0 0 5px 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.diskusi-5-teratas li p {
+  width: 80%;
+  text-align: left;
+}
+
+.diskusi-5-teratas li p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.main-article {
+  text-align: left;
+}
+
+.main-article .title {
+  font-size: 2.2rem;
+  word-wrap: break-word;
+  line-height: 1;
+}
+
+.main-article .article {
+  /* margin: 10% 0; */
+  word-wrap: break-word;
+}
+
+.kotak {
+  height: 25px;
+  width: 28px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.comment-title .title-tambah {
+  font-size: 1.2rem;
+}
+
+.comment-line {
+  height: 1px;
+  width: 80%;
+}
+
+.comment-line.tambahkan-komentar {
+  width: 60%;
+}
+
+.comment-content {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 5%;
+}
+
+.comment-content-user--photo {
+  height: 60px;
+  width: 60px;
+}
+
+.comment-content-user--photo.reply {
+  height: 45px;
+  width: 45px;
+}
+
+.comment-content-user--photo .size {
+  width: 100%;
+}
+
+.comment-content-user {
+  width: 70%;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.comment-content-user p {
+  word-wrap: break-word;
+}
+
+.comment-content-user .time {
+  font-size: 0.8rem;
+}
+
+.comment-content-user .point {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.comment-content-user .point span,
+.comment-content-user .point button {
+  margin-right: 5px;
+}
+
+.point-display {
+  width: 60px;
+}
+
+.point-btn {
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.point-btn.up:focus {
+  background-color: #33b95a;
+  color: #ffffff;
+}
+
+.point-btn.down:focus {
+  background-color: #ff5f2d;
+  color: #ffffff;
+}
+
+.form-comment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.text-area-comment {
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 2px;
+  border: 1px solid gray;
+  width: 100%;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+.input-comment {
+  border: 1px solid gray;
+  margin-bottom: 0px;
+  width: 35%;
+}
+
+@media screen and (max-width: 600px) {
+  .text-area-comment,
+  .input-comment {
+    width: 100%;
+  }
+
+  .comment-line {
+    width: 60%;
+  }
+
+  .comment-line.tambahkan-komentar {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-section,
+  .aside-section {
+    width: 100%;
+  }
+  .main-section {
+    padding-top: 6%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .main-section {
+    width: 65%;
+  }
+  .aside-section {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    padding: 0 7.5%;
+    padding-top: 55px;
+  }
+}

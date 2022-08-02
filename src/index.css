@@ -1,0 +1,166 @@
+@font-face {
+  font-family: "PT Sans Web Regular";
+  src: url("./assets/fonts/PT_Sans-Web-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PT Sans Web Bold";
+  src: url("./assets/fonts/PT_Sans-Web-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PT Sans Web Italic";
+  src: url("./assets/fonts/PT_Sans-Web-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PT Sans Web Bold Italic";
+  src: url("./assets/fonts/PT_Sans-Web-BoldItalic.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  overflow-y: overlay;
+}
+
+.d-none {
+  display: none;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.normal {
+  font-family: "PT Sans Web Regular";
+}
+
+.bold {
+  font-family: "PT Sans Web Bold";
+}
+
+.italic {
+  font-family: "PT Sans Web Italic";
+}
+
+.bold-italic {
+  font-family: "PT Sans Web Italic";
+}
+
+.bg-brown {
+  background-color: #71695f;
+}
+
+.bg-dark-brown {
+  background-color: #635c53;
+}
+
+.bg-green {
+  background-color: #33b95a;
+}
+
+.bg-red {
+  background-color: #ff5f2d;
+}
+
+.bg-gray {
+  background-color: #dddddd;
+}
+
+.bg-light-gray {
+  background-color: #eeeeee;
+}
+
+.bg-black {
+  background-color: #333333;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.brown {
+  color: #71695f;
+}
+
+.dark-brown {
+  color: #635c53;
+}
+
+.green {
+  color: #33b95a;
+}
+
+.red {
+  color: #ff5f2d;
+}
+
+.gray {
+  color: #dddddd;
+}
+
+.light-gray {
+  color: #eeeeee;
+}
+
+.black {
+  color: #333333;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.form-control {
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  outline: none;
+  border-radius: 2px;
+}
+
+.input-group {
+  margin: 0 0 15px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-background-origin: rgba(207, 207, 207, 0.5);
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(170, 170, 170, 0.8);
+}
+
+body {
+  margin: 0;
+  font-family: "PT Sans Web Regular", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
